@@ -1,4 +1,12 @@
-@import 'base/_variables';
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+
 body {
     font-family: 'Museo Sans'; 
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
 }
