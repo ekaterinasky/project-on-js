@@ -1,9 +1,5 @@
 @import 'base/variables';
-@import 'blocks/promo';
-@import 'blocks/header';
-@import 'blocks/buttons';
-@import 'blocks/advantages';
-@import 'blocks/_titles';
+
 * {
     margin: 0;
     padding: 0;
@@ -15,3 +11,10 @@ body {
     width: 940px;
     margin: 0 auto;
 }
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/_titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
