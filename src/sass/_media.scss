@@ -1,0 +1,38 @@
+@media (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+    .carousel {
+        img {
+            display: block;
+            width: 70%;
+            margin: 0 auto;
+        }
+    .slick-dots {
+        margin-left: auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        color: darkred;
+        :active {
+            color: deepskyblue;
+        }
+    }
+    #slick-slide-control00 {
+        display: none;
+    }
+    #slick-slide-control01 {
+        display: none;
+    }
+    }#slick-slide-control02 {
+        display: none;
+    }
+}
+    .consultation {
+        .title {
+            &_left {
+                font-size: 27px;
+            }
+        }
+
+}

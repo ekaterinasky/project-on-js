@@ -1,6 +1,6 @@
 @import 'base/variables';
 
-* {
+body {
     margin: 0;
     padding: 0;
 }
@@ -11,11 +11,13 @@ body {
     width: 940px;
     margin: 0 auto;
 }
+
 @import 'blocks/promo';
-@import 'blocks/header';
+@import 'blocks/header.scss';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
-@import 'blocks/_titles';
+@import 'blocks/titles';
 @import 'blocks/consultation';
 @import 'blocks/forms';
-@import 'blocks/_carousel';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
