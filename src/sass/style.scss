@@ -1,11 +1,9 @@
 @import 'base/variables';
 
 body {
-    margin: 0;
-    padding: 0;
-}
-body {
     font-family: 'Museo Sans'; 
+    padding: 0px;
+    margin: 0px;
 }
 .container {
     width: 940px;
@@ -21,3 +19,6 @@ body {
 @import 'blocks/forms';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
